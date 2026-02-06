@@ -1,9 +1,13 @@
-company_name = "My First Repo"
-customers = 10
-revenue = 500.00
-profitable = True
+def print_company_summary(name, customers, revenue, profitable):
+    print("Company Name:", name)
+    print("Customers:", customers)
+    print("Revenue:", revenue)
+    print("Profitable:", profitable)
 
-print(company_name)
-print(customers)
-print(revenue)
-print(profitable)
+
+print_company_summary(
+    "My First Repo",
+    10,
+    500.00,
+    True
+)
